@@ -1,10 +1,10 @@
 # Java EE Businesses app
 
-A sample, fairly bare-bones setup for Java EE app which serves necessary files for a frontend application. Built using maven.
+A sample, fairly bare-bones setup for Java EE app which serves necessary files for a frontend application. Built using gradle.
 
 # Building locally
 
-run `mvn package` and then deploy the .war to your container (e.g. Glassfish server).
+run `./gradlew war` and then deploy the .war to your container (e.g. Glassfish server).
 
 # Interesting bits
 
