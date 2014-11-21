@@ -1,0 +1,19 @@
+repositories {
+  mavenCentral()
+}
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+version = '1.0'
+
+dependencies {
+  providedCompile 'javax:javaee-api:7.0'
+}
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '2.1'
+}
